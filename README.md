@@ -112,3 +112,9 @@ Terraform will display:
   "temperature": 98.5,
   "timestamp": "2025-08-03T12:30:45.789Z"
 }
+
+
+### architecture of project
+
+1. Architecture
+(Healthcare.png)
