@@ -1,0 +1,7 @@
+{
+  "patient_id": "P-1234",
+  "heart_rate": 98,
+  "temperature": 99.1,
+  "timestamp": "2025-08-03T12:45:56.789Z",
+  "processed": true
+}
