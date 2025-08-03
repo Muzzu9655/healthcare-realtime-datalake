@@ -95,3 +95,20 @@ Terraform will display:
 - Add **CloudWatch alarms** for anomaly detection
 
 ---
+
+
+## Phase 2: Real-Time Data Simulation
+
+- A **Python script** in `scripts/data_generator.py` simulates streaming patient vitals.
+- Simulated data is shown in `sample-data/raw/` (example JSON files).
+- The **Lambda ETL function** (`lambda/etl_function.py`) processes incoming records
+  and writes curated data to S3 (simulated as `sample-data/curated/`).
+
+### Sample Streaming Data
+```json
+{
+  "patient_id": "P-1234",
+  "heart_rate": 97,
+  "temperature": 98.5,
+  "timestamp": "2025-08-03T12:30:45.789Z"
+}
