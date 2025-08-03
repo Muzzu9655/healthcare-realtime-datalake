@@ -114,5 +114,9 @@ Terraform will display:
 }
 ```
 
-### Architecture of this project
-(Healthcare.png)
+### Architecture of the Project 
+![Architecture](Healthcare.png)
+
+
+### Athena query result 
+![Athena Result](sentiment_query_result.png.jpg)
