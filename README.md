@@ -119,4 +119,4 @@ Terraform will display:
 
 
 ### Athena query result 
-![Athena Result](sentiment_query_result.png.jpg)
+![Athena Result](athena_query_result.jpg)
